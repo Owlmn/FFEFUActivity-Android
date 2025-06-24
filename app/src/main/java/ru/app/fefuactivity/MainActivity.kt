@@ -17,8 +17,12 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        findViewById<com.google.android.material.button.MaterialButton>(R.id.AccountButton).setOnClickListener {
+        findViewById<com.google.android.material.button.MaterialButton>(R.id.registerButton).setOnClickListener {
             val intent = Intent(this, Registration::class.java)
+            startActivity(intent)
+        }
+        findViewById<com.google.android.material.button.MaterialButton>(R.id.AccountButton).setOnClickListener {
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
     }

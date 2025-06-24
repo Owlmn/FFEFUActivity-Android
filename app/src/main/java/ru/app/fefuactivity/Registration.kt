@@ -16,5 +16,8 @@ class Registration : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        findViewById<android.widget.ImageView>(R.id.back_button).setOnClickListener {
+            finish()
+        }
     }
 }

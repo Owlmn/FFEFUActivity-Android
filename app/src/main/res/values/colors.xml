@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="input_stroke">#4B1EFF</color>
+    <color name="input_stroke_inactive">#FFCCCCCC</color>
+    <color name="input_label">#4B1EFF</color>
 </resources>
