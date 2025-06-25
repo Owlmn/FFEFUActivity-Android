@@ -5,5 +5,14 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.FefuActivity" parent="Base.Theme.FefuActivity" />
+    <style name="Widget.FefuActivity.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Theme.FefuActivity" parent="Base.Theme.FefuActivity">
+        <item name="bottomNavigationStyle">@style/Widget.FefuActivity.BottomNavigationView</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.FAB.Circle" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
 </resources>

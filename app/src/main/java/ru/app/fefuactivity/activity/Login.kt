@@ -1,10 +1,12 @@
-package ru.app.fefuactivity
+package ru.app.fefuactivity.activity
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import ru.app.fefuactivity.R
+import android.content.Intent
 
 class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,6 +19,11 @@ class Login : AppCompatActivity() {
             insets
         }
         findViewById<android.widget.ImageView>(R.id.back_button2).setOnClickListener {
+            finish()
+        }
+        findViewById<com.google.android.material.button.MaterialButton>(R.id.login_btn).setOnClickListener {
+            val intent = Intent(this, MainScreenActivity::class.java)
+            startActivity(intent)
             finish()
         }
         val rootView = findViewById<android.view.View>(R.id.main)
