@@ -8,4 +8,5 @@
     <color name="input_label">#4B1EFF</color>
     <color name="light_grey">#F0F0F0</color>
     <color name="dark_grey">#808080</color>
+    <color name="red">#B00020</color>
 </resources>
