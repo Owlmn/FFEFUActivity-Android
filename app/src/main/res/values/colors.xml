@@ -2,7 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="purple">#4B09F3</color>
     <color name="input_stroke">#4B1EFF</color>
-    <color name="input_stroke_inactive">#FFCCCCCC</color>
+    <color name="grey">#FFCCCCCC</color>
     <color name="input_label">#4B1EFF</color>
+    <color name="light_grey">#F0F0F0</color>
+    <color name="dark_grey">#808080</color>
 </resources>

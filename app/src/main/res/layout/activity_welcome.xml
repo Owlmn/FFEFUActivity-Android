@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".activity.WelcomeActivity"
     android:background="@color/white">
 
     <ImageView
@@ -73,9 +73,8 @@
         android:text="Уже есть аккаунт?"
         android:textColor="#4B09F3"
         android:textSize="16sp"
-        android:layout_marginBottom="32sp"
+        app:layout_goneMarginTop="16dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registerButton" />
